@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Chawanwit Akarajirathanachot</title>
+  <link rel="shortcut icon" href="./assets/images/NHK-black.png" type="image/png">
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <style>
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+    }
+
+    .skills-column {
+      flex: 1 1 45%;
+      min-width: 300px;
+    }
+
+    .skills-list {
+      list-style: none;
+      padding: 0;
+    }
+
+    .skills-item {
+      margin-bottom: 20px;
+    }
+
+    .text-light {
+      color: #c4c2c2;
+    }
+  </style>
+</head>
+
+<body>
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/me.png" alt="Chawanwit Akarajirathanachot" width="80">
+        </figure>
+        <div class="info-content">
+          <center><h3 style="color: white;" title="Chawanwit Akarajirathanachot">Chawanwit Akarajirathanachot</h3></center><br>
+          <p class="title">Traniner / Developer</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:chawanwit.akarajirathanachot@gmail.com"
+                class="contact-link">chawanwit.akarajirathanachot@gmail.com</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+66829522797" class="contact-link">+66 82-952-2797</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Birthday</p>
+
+              <time datetime="2005-09-14">September 14, 2005</time>
+            </div>
+
+          </li>
+
+          <li class="contact-item">
+
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+
+              <address>Si Racha, Chonburi, Thailand</address>
+            </div>
+          </li>
+
+        </ul>
+
+        <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://facebook.com/Meck.robot" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.instagram.com/meck_76268/" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://github.com/Karibura-Cyber/" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            Hello, my name is<b> Chawanwit Akarajirathanachot</b>, or you can call me <u>Meck</u>.
+            I’m 19 years old and deeply passionate about programming, especially robotics, because it allows for
+            hands-on learning and real-world applications.
+            My passion lies in making robotics technology more accessible to children and the general public, whether by
+            reducing costs, providing necessary tools, or overcoming other barriers.
+            To achieve this.
+          </p>
+
+          <p>
+            I founded a team called<b> NightHawk Robotics</b>, which focuses on designing and producing educational
+            robots.
+            Our goal is to enable students and anyone interested to explore,
+            practice, and develop their skills in robotics.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">
+
+          <h3 class="h3 service-title">What i'm doing</h3>
+
+          <ul class="service-list">
+
+            <li class="service-item">
+
+              <div class="service-icon-box">
+                <h2 style="color: hsl(45, 100%, 72%);"><ion-icon name="code-slash-outline"></ion-icon></h2>
+              </div>
+
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web design</h4>
+
+                <p class="service-item-text">
+                  The most modern and high-quality design made at a professional level.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <h2 style="color: hsl(45, 100%, 72%);"><ion-icon name="code-working-outline"></ion-icon></h2>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+
+                <p class="service-item-text">
+                  High-quality development of sites by based on NodeJS.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <h2 style="color: hsl(45, 100%, 72%);"><ion-icon name="construct-outline"></ion-icon></h2>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Robotic Design</h4>
+
+                <p class="service-item-text">
+                  Designing and developing educational robots by based on Arduino and ROS. and for specific purposes
+                  like bomb defuse robot and CubeSat.
+                </p>
+              </div>
+
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <h2 style="color: hsl(45, 100%, 72%);"><ion-icon name="settings-outline"></ion-icon></h2>
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Robotic Programming</h4>
+
+                <p class="service-item-text">
+                  Programming and debugging of robotic systems by using programming languages like Python and C++.
+                </p>
+              </div>
+
+            </li>
+
+          </ul>
+
+        </section>
+
+        <div class="modal-container" data-modal-container>
+
+          <div class="overlay" data-overlay></div>
+
+          <section class="testimonials-modal">
+
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+
+            <div class="modal-content">
+
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+
+              <time datetime="2021-06-14">14 June, 2021</time>
+
+              <div data-modal-text>
+                <p>
+                  Richard was hired to create a corporate identity. We were very pleased with the work done. She has a
+                  lot of experience
+                  and is very concerned about the needs of client. Lorem ipsum dolor sit amet, ullamcous cididt
+                  consectetur adipiscing
+                  elit, seds do et eiusmod tempor incididunt ut laborels dolore magnarels alia.
+                </p>
+              </div>
+
+            </div>
+
+          </section>
+
+        </div>
+
+
+
+      </article>
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">42Bangkok, KMITL</h4>
+
+              <span>2024 - Present</span>
+
+              <p class="timeline-text">
+                Study at 42Bangkok, KMITL for software developer.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Surasak Wittayakom School</h4>
+
+              <span>2018 - 2024</span>
+
+              <p class="timeline-text">
+                Study secondary school and start to learn about Robotics technology and programming by use C and C++
+                programming.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Watnaphrao School</h4>
+
+              <span>2012 - 2018</span>
+
+              <p class="timeline-text">
+                Study primary school.
+              </p>
+
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">CEO of NightHawk Robotics</h4>
+
+              <span>2023 — Present</span>
+
+              <p class="timeline-text">
+                Establishing a company named NightHawk Robotics, focusing on robotics education and knowledge sharing,
+                as well as designing and developing robots for educational purposes and competitions.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Web Master of IVAO Thailand</h4>
+
+              <span>2024 - Present</span>
+
+              <p class="timeline-text">
+                Work as a web master of International Virtual Aviation Organization Thailand Division (IVAOTH).
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">CTO of Permis Security</h4>
+              <span>2020 - Present</span>
+              <p class="timeline-text">
+                Serving as the CTO of <b>Permis Security</b>, a company specializing in cybersecurity, with
+                responsibilities that include designing and managing various devices and systems used in the field of
+                cybersecurity.
+              </p>
+            </li>
+
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My skills</h3>
+
+          <div class="skills-container content-card">
+
+            <div class="skills-column">
+              <ul class="skills-list">
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h4 class="h4">Web design</h4>
+                  </div>
+                  <hr><br>
+                  <div class="text-light">
+                    <p>NodeJS (Intermediate)</p>
+                    <p>PHP (Intermediate)</p>
+                    <p>ExpressJS (Proficient)</p>
+                    <p>EJS (Expert)</p>
+                    <p>Flask (Proficient)</p>
+                    <p>MongoDB (Proficient)</p>
+                    <p>SQL (Intermediate)</p>
+                  </div>
+                </li>
+                <br>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h4 class="h4">Programming</h4>
+                  </div>
+                  <hr><br>
+                  <div class="text-light">
+                    <p>Javascript (Intermediate)</p>
+                    <p>TypeScript (Intermediate)</p>
+                    <p>Python (Expert)</p>
+                    <p>C (Expert)</p>
+                    <p>C++ (Intermediate)</p>
+                  </div>
+                </li>
+                <br>
+
+              </ul>
+            </div>
+
+            <div class="skills-column">
+              <ul class="skills-list">
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h4 class="h4">Engineering</h4>
+                  </div>
+                  <hr><br>
+                  <div class="text-light">
+                    <p>CAD/CAM</p>
+                    <p>Drawing</p>
+                    <p>Robotic Design</p>
+                  </div>
+                </li>
+                <br>
+
+                <li class="skills-item">
+                  <div class="title-wrapper">
+                    <h4 class="h4">Soft Skills</h4>
+                  </div>
+                  <hr><br>
+                  <div class="text-light">
+                    <p>Quick learner</p>
+                    <p>Perseverance in pursuing passions</p>
+                    <p>Excellent interpersonal communication</p>
+                    <p>Ability to teach and mentor others</p>
+                  </div>
+                </li>
+
+              </ul>
+            </div>
+
+          </div>
+
+        </section>
+
+
+      </article>
+
+
+
+
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Portfolio</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Training</button>
+            </li>
+            
+            <li class="filter-item">
+              <button data-filter-btn>Toys</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Training</button>
+              </li>
+              
+              <li class="select-item">
+                <button data-select-item>Toys</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://dropctf.live/">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/dropctf.png" alt="DropCTF" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">DropCTF</h3>
+
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/nhkpcb.png" alt="DropCTF" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">NHK PCB <font color="red">Inactive</font></h3>
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/ivaowebsite.png" alt="IVAOTH" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">IVAO Thailand website</h3>
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="training">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/robot-training1.png" alt="Robot Training" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Robot programming training at Surasak Wittayakom School</h3>
+
+                <p class="project-category">Training</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="training">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/robot-training2.png" alt="Robot Training" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Robot programming training at PTSP</h3>
+
+                <p class="project-category">Training</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="toys">
+              <a href="#">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/blackcat.png" alt="Robot Training" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">BlackCat Robot education kits</h3>
+
+                <p class="project-category">Training / Toys</p>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
